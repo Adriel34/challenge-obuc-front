@@ -51,8 +51,13 @@ export default function Home() {
     }));
   }, [tasks]);
 
-  const statusOptions = [{ id: 1, value: "inProgress", label: "In Progress" }];
-
+  const statusOptions = [
+    { id: 1, value: "pending", label: "Pending" },
+    { id: 2, value: "inProgress", label: "In Progress" },
+    { id: 3, value: "completed", label: "Completed" },
+    { id: 4, value: "archived", label: "Archived" }
+  ];
+  
 
   const tabs = {
     board: (
