@@ -2,6 +2,22 @@
 
 Este projeto é a interface para uma aplicação de gerenciamento de tarefas, utilizando o React.
 
+Novas features:
+
+Criação de usuario: Foram implementadas telas de login e direcionamento das tarefas por usuario
+Visualização em Kanban : Visualização de tasks por kamban em colunas.
+
+Adicionar categoria de uma tarefa : Possibilitar criação de categorias para as tasks.
+
+Possibilitar adição de mais de uma categoria para uma task.
+
+Filtrar tarefa por categorias: foi implemdado um filtro para filtrar tasks por categorias
+
+Esconder tarefas antigas : por padrao não é exibido taferas realizadas a mais de 30 dias, adicionei o botão para exibir.
+
+
+
+
 ## Requisitos
 
 - Node.js v21.6.1
